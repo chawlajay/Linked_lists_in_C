@@ -35,6 +35,8 @@ struct student *createList()
     count++;
     return head;
 }
+
+//Inserts the student node in the list
 struct student *insertion(struct student *head)
 {
     struct student *temp,*new_node;
@@ -120,6 +122,7 @@ struct student *insertion(struct student *head)
     return head;
 }
 
+// Deletes the student node from the list
 struct student *deletion(struct student *head)
 {
  int i,j,k;
@@ -200,6 +203,7 @@ struct student *deletion(struct student *head)
  return head;
 }
 
+//To search a particular student node
 void search(struct student *head)
 {
     int i,j,k;
@@ -263,6 +267,7 @@ void search(struct student *head)
 
 }
 
+//To Display the student Record
 void display(struct student *head)
 {
     struct student *temp;
@@ -274,7 +279,7 @@ void display(struct student *head)
     }
 }
 
-
+//main() function starts here
 int main()
 {
     struct student *head,*temp;

@@ -439,7 +439,7 @@ int main()
 
     }
 
-    printf("\nEnter a number accordingly.\n1. To Create Linear Linked List\n2. To insert a node\n3. To delete a node\n4. To search a node\n5. To display all the nodes\n6. To exit from program");
+    printf("\nEnter a number accordingly.\n1. To Create Circular Doubly Linear Linked List\n2. To insert a node\n3. To delete a node\n4. To search a node\n5. To display all the nodes\n6. To exit from program");
     scanf("%d",&i);
 
     }
